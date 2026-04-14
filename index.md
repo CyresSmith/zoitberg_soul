@@ -17,6 +17,8 @@
 | Page | Summary |
 | --- | --- |
 | [[Next.js 15 & Tailwind v4]] | Frontend-конвенції, forms, routing, UI-патерни. |
+| [[React Hook Form & Zod]] | Єдиний стандарт клієнтських та серверних форм. |
+| [[SEO & Metadata]] | Організація мапи сайту, on-demand revalidation, PWA. |
 | [[Prisma & PostgreSQL]] | Data layer, workflow зміни схеми, practical DB notes. |
 | [[DevOps Workflows]] | Git, build, deploy і quality gate. |
 | [[Design to Code]] | Як переносити дизайн у живий production-ready код. |

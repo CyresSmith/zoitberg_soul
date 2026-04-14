@@ -1,5 +1,17 @@
 # Log
 
+## [2026-04-14] SEO & Forms | React Hook Form & Zod, PWA, Sitemap
+- **Що зроблено:** 
+  - Форми на сайті переведені на суворий Zod + React Hook Form (Contacts, Checkout).
+  - Схеми та типи винесені у `lib/schemas` та `lib/types`.
+  - Моделі `Lead` розділено на `Order` та `Consultation`. Відповідно оновлено адмін-панель.
+  - Усі таблиці адмін-панелі отримали клікабельні посилання для швидкого переходу.
+  - SEO оптимізація: 404, error boundaries, `manifest.ts`, `robots.ts`, `sitemap.ts`.
+  - On-Demand Revalidation: Після змін в адмінці автоматично викликається `revalidatePath` для `sitemap.xml` та динамічних сторінок замість ISR-таймерів.
+  - `generateMetadata` для динамічного SEO на кожній сторінці товару/категорії.
+- **Конвенції:** Обов'язкове використання єдиного стандарту форм. Додано `[[React Hook Form & Zod]]` та `[[SEO & Metadata]]` у Вікі.
+- **Git Hash:** `8b4ec76`
+
 ## [2026-04-14] Refactor | Obsidian knowledge base cleanup
 - **Що зроблено:** прибрано штучну ієрархію `projects/` і `skills/` у `wiki/notes`, контент перенесено в окремі Obsidian-notes верхнього рівня.
 - **Файли:** `Gaztechprime.md`, `Next.js 15 & Tailwind v4.md`, `Prisma & PostgreSQL.md`, `DevOps Workflows.md`, `Design to Code.md`, `index.md`, `KNOWLEDGE.md`.
