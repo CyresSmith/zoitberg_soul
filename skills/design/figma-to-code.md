@@ -1,3 +1,0 @@
-# Design to Code (Figma)
-- **AI Limitations:** AI agents cannot natively "draw" complete, beautiful layouts directly onto a Figma canvas. 
-- **Developer Workaround:** Use Figma PAT (Personal Access Token) and API to parse the reference file's JSON structure. Extract typography, spacing, and shadows, then translate these directly into Next.js/Tailwind code. A "living prototype" in code is often faster and more useful than attempting to prompt an AI to generate images/designs.
