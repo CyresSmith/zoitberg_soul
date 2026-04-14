@@ -22,7 +22,7 @@
   - **Type Safety:** Always import shared types via `@types`. Never use relative imports for shared logic.
   - **Form Validation:** Every form must use `react-hook-form` + `zod` schema from `@lib/schemas`.
   - **Clean Code:** Run `npm run format` (Prettier) before every commit.
-  - **Commit Author:** Use `madnezz5@gmail.com` for all Git operations to avoid Vercel build conflicts.
+  - **Commit Author:** Use `madnezz5@gmail.com` and name `Zoidberg AI` for all Git operations.
 
 ## 🔄 Daily Workflow Protocol
 1. **Pull:** `git pull` from project and wiki repos.
