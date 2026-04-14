@@ -1,1 +1,14 @@
-- **Prisma 7.7+ Breaking Changes:** In Prisma 7, the `url` property is no longer allowed in the `datasource` block inside `schema.prisma`. It must be removed from the schema and placed exclusively in the new `prisma.config.ts` file.
+# Prisma & DB Management 🗄️
+
+## 🛠 Workflow
+1. Оновлення `schema.prisma`.
+2. Синхронізація: `npx prisma db push`.
+3. Генерація клієнта: `npx prisma generate`.
+
+## 📋 Моделі
+- **Lead:** Зберігає замовлення та запити на консультацію. Поле `items` має тип `Json`.
+- **Product:** Підтримує масив зображень та зв'язок з категорією.
+- **PortfolioProject:** Окреме сховище для реалізованих об'єктів.
+
+## 💡 Поради
+- Використовувати `revalidatePath` у серверних екшнах для миттєвого оновлення кешу.

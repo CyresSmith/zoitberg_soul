@@ -1,13 +1,12 @@
-# Log
+# Log (Simplified)
 
-## [2026-04-14] Покращення UI та Логіки Кошика.
-- **Cart Reset:** Реалізовано очищення стейту Zustand (`clearCart()`) після успішного створення замовлення на сторінці `/checkout`.
-- **Global UX:** Додано глобальне правило у `globals.css`, що встановлює `cursor: pointer` для всіх кнопок, лінків, селектів та інтерактивних елементів.
-- **UI Polishing:**
-  - Оновлено сторінку успіху замовлення (додано стани наведення, анімації та відповідність industrial-стилю).
-  - Уніфіковано вигляд кошика (Sidebar) — тепер він повністю відповідає суворому дизайну проекту (uppercase, font-black).
-- **Git:** Коміти `38b36c4` ... `9bd01c2` запушено в `dev`.
+## [2026-04-14] Deep Work: Gaztechprime Evolution 🚀
+- **Refactor:** Переведено всі посилання на `Next Link`.
+- **Feature:** Реалізовано кошик (Zustand) та бічну панель.
+- **Feature:** Повна B2B система замовлень з Email-сповіщеннями.
+- **Admin:** Повний CRUD для категорій, товарів та портфоліо.
+- **UX:** Глобальні лоадери (NProgress) та `cursor-pointer` для всіх елементів.
+- **Git:** Коміти `bc6980f` ... `9bd01c2` (Author: Zoidberg AI / madnezz5@gmail.com).
 
-## [2026-04-14] Повний CRUD для Адмін-панелі.
-- Побудовано Leads Details, Portfolio Management, Categories Refactor.
-- Git Hash: `285971c`
+## [2026-04-12] Setup: Karpathy-Wiki 🦀
+- Ініціалізація структури, AGENTS.md та Automation.md.
