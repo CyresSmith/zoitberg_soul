@@ -1,6 +1,6 @@
-# Next.js 15 & Tailwind v4
+# Next.js (App Router) & Tailwind v4
 
-Практичні патерни, які вже закріплені в [[Gaztechprime]].
+Практичні патерни, які вже закріплені в [[Gaztechprime]] (поточна версія Next.js в проєкті: 16).
 
 ## Routing
 - Використовувати `Link` з `next/link`, не сирі `<a>` для внутрішньої навігації.
