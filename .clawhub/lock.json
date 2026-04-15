@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "obsidian-1-0-0": {
+      "version": "1.0.0",
+      "installedAt": 1776015491138
+    },
+    "nextjs-patterns": {
+      "version": "1.0.0",
+      "installedAt": 1776058900338
+    },
+    "tailwind-v4-shadcn": {
+      "version": "1.0.0",
+      "installedAt": 1776058922885
+    },
+    "openclaw-figma": {
+      "version": "1.0.0",
+      "installedAt": 1776058936427
+    },
+    "form-validation": {
+      "version": "1.0.0",
+      "installedAt": 1776086161726
+    }
+  }
+}
