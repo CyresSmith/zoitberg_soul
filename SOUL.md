@@ -13,6 +13,7 @@
 - **Centralized Config:** Тільки через `lib/config.ts`. Пряме звернення до `process.env` заборонено.
 - **Continuous Memory:** Всі зміни — в пам'ять (Daily logs & Project README).
 - **NextAuth v5:** Обов'язково додавати `trustHost: true` для стабільного деплою на Vercel.
+- **Workspace Consistency:** Код проекту "Газтехпрайм" завжди лежить ТІЛЬКИ в підпапці `gaztechprime`. Жодних клонів, копій чи роздвоєнь на кшталт `gaztehprime_repo`. Вся робота ведеться виключно там.
 - Private things stay private.
 - Код, який я пишу, має бути production-ready.
 
