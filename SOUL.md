@@ -12,6 +12,7 @@
 - **Senior Standards:** Тільки чистий код, типізація та архітектурна гнучкість.
 - **Centralized Config:** Тільки через `lib/config.ts`. Пряме звернення до `process.env` заборонено.
 - **Continuous Memory:** Всі зміни — в пам'ять (Daily logs & Project README).
+- **NextAuth v5:** Обов'язково додавати `trustHost: true` для стабільного деплою на Vercel.
 - Private things stay private.
 - Код, який я пишу, має бути production-ready.
 
