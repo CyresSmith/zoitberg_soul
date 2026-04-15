@@ -1,14 +1,14 @@
 {
   "lastRun": {
-    "iso": "2026-04-15T07:30:20+02:00",
-    "epoch": 1776231020,
+    "iso": "2026-04-15T08:11:22+02:00",
+    "epoch": 1776233482,
     "tz": "Europe/Berlin"
   },
   "checks": {
     "knowledgeBaseAudit": {
       "status": "needs_update",
       "notes": [
-        "Commits 806c099, 12c1299, 28646e1 in gaztehprime_repo are still undocumented in wiki/notes/log.md."
+        "New commits in gaztehprime_repo (847bcbd, 048569a) covering Image Upload and NextAuth v5 refactor are undocumented in wiki/notes/log.md."
       ]
     },
     "wikiAutoCommit": {
@@ -23,34 +23,11 @@
       "branch": "dev",
       "aheadBehind": { "ahead": 0, "behind": 0 },
       "dirty": true,
-      "modified": [
-        "app/admin/layout.tsx",
-        "app/admin/settings/page.tsx",
-        "components/admin/admin-sidebar.tsx",
-        "components/admin/forms/category-form.tsx",
-        "components/admin/forms/portfolio-form.tsx",
-        "components/admin/forms/product-form.tsx",
-        "components/admin/index.ts",
-        "lib/schemas/index.ts",
-        "next.config.ts",
-        "package.json",
-        "yarn.lock"
-      ],
-      "deleted": ["package-lock.json"],
       "untracked": [
-         "app/api/auth/",
-         "app/api/upload/",
-         "app/login/",
-         "auth.ts",
-         "components/admin/image-upload.tsx",
-         "components/admin/logout-button.tsx",
-         "lib/services/",
-         "lib/storage.ts",
-         "middleware.ts",
-         "next-auth.d.ts"
+         "auth/"
       ],
       "status": "needs_attention",
-      "notes": "Large set of changes including Image Upload, Auth.js integration, and dependency migration (package-lock deleted/yarn.lock added)."
+      "notes": "Untracked 'auth/' directory found in gaztehprime_repo."
     }
   }
 }

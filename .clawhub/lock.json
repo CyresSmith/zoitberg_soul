@@ -11,7 +11,7 @@
     },
     "tailwind-v4-shadcn": {
       "version": "1.0.0",
-      "installedAt": 1776058922885
+      "installedAt": 1776235865232
     },
     "openclaw-figma": {
       "version": "1.0.0",
@@ -20,6 +20,10 @@
     "form-validation": {
       "version": "1.0.0",
       "installedAt": 1776086161726
+    },
+    "lb-shadcn-ui-skill": {
+      "version": "0.1.0",
+      "installedAt": 1776235828772
     }
   }
 }
