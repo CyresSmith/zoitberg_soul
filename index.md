@@ -6,7 +6,7 @@ If you ever restart, switch models, or lose chat history: **DO NOT PANIC. DO NOT
 Read this file, read the latest log in `[[log]]`, check the Active Context below, and resume work seamlessly.
 
 ## 🔴 ACTIVE CONTEXT (Current State)
-*   **Active Project:** Gaztechprime B2B E-commerce (Next.js 16, Tailwind v4, Prisma, PostgreSQL).
+*   **Active Project:** Gaztechprime B2B E-commerce (Next.js 16, Tailwind v4, Prisma, PostgreSQL). *(Note: We handle multiple projects. Ensure you are in the correct one!)*
 *   **Workspace Path:** `/root/.openclaw/workspace/gaztechprime`
 *   **Current Branch:** `dev`
 *   **Latest Achievement:** Fixed auth (NextAuth v5 beta.25 with Next.js 16 proxy), Implemented `uploadImage` (Local + Cloudinary via `lib/config.ts`), implemented Drag-and-Drop image sorting. Configured Shadcn MCP.
@@ -23,9 +23,10 @@ Read this file, read the latest log in `[[log]]`, check the Active Context below
 | [[log]] | Хронологія важливих змін і рішень. |
 
 ## Project notes
+*(Знання про окремі проєкти суворо ізольовані та ніколи не змішуються. Кожен проєкт має свою сторінку та папку).*
 | Page | Summary |
 | --- | --- |
-| [[Gaztechprime]] | Поточний стан, ключові рішення і відкриті задачі по основному проєкту. |
+| [[Gaztechprime]] | Поточний стан, ключові рішення і відкриті задачі по основному проєкту (Перший, але не єдиний). |
 
 ## Technical notes
 | Page | Summary |
