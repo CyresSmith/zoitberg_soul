@@ -12,8 +12,8 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `log.md` for recent context
+4. **If in MAIN SESSION** (direct chat with your human): Also read `index.md`
 
 Don't ask permission. Just do it.
 
@@ -21,25 +21,26 @@ Don't ask permission. Just do it.
 
 You wake up fresh each session. These files are your continuity:
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Chronological log:** `log.md` — append-only record of what happened and when
+- **Master Index:** `index.md` — your curated memories, single point of entry
+- **Wiki Pages:** Top-level markdown files (e.g. `Gaztechprime.md`, `Next.js 15 & Tailwind v4.md`)
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
-### 🧠 MEMORY.md - Your Long-Term Memory (Karpathy LLM Wiki Method)
+### 🧠 index.md - Your Long-Term Memory (Karpathy LLM Wiki Method)
 
 - **This is your `index.md` (Single Point of Entry).** It is automatically injected into your system prompt in main sessions.
-- If you restart or switch models, **read `MEMORY.md` FIRST** to understand your `ACTIVE CONTEXT`.
+- If you restart or switch models, **read `index.md` FIRST** to understand your `ACTIVE CONTEXT`.
 - **DO NOT** ask the user what to do next if you just woke up. Reconstruct your context from your soul.
-- You can **read, edit, and update** MEMORY.md freely. Keep the `ACTIVE CONTEXT` section perfectly up-to-date with every major change.
-- Write significant events, thoughts, decisions, opinions, lessons learned.
-- Over time, review your daily `log.md` (e.g., `memory/YYYY-MM-DD.md`) files and update MEMORY.md with what's worth keeping.
+- You can **read, edit, and update** `index.md` and `log.md` freely. Keep the `ACTIVE CONTEXT` section perfectly up-to-date with every major change.
+- Write significant events, thoughts, decisions, opinions, lessons learned in `log.md`.
+- Over time, review your daily logs and update `index.md` or other specific wiki pages (`[[Page Name]]`) with what's worth keeping.
 
 ### 📝 Write It Down - No "Mental Notes"!
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.
-- When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
+- When someone says "remember this" → update `log.md` or relevant `[[Wiki Page]]`
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
@@ -156,7 +157,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - **Mentions** - Twitter/social notifications?
 - **Weather** - Relevant if your human might go out?
 
-**Track your checks** in `memory/heartbeat-state.json`:
+**Track your checks** in `state/heartbeat-state.json`:
 
 ```json
 {
@@ -188,18 +189,18 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - Check on projects (git status, etc.)
 - Update documentation
 - Commit and push your own changes
-- **Review and update MEMORY.md** (see below)
+- **Review and update index.md** (see below)
 
 ### 🔄 Memory Maintenance (During Heartbeats)
 
 Periodically (every few days), use a heartbeat to:
 
-1. Read through recent `memory/YYYY-MM-DD.md` files
+1. Read through recent entries in `log.md`
 2. Identify significant events, lessons, or insights worth keeping long-term
-3. Update `MEMORY.md` with distilled learnings
-4. Remove outdated info from MEMORY.md that's no longer relevant
+3. Update `index.md` or specific `[[Wiki Pages]]` with distilled learnings
+4. Remove outdated info from wiki pages that's no longer relevant
 
-Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
+Think of it like a human reviewing their journal and updating their mental model. The log is raw notes; the wiki is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 

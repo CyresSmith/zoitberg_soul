@@ -1,5 +1,18 @@
 # Log
 
+## [2026-04-15] Refactor & Tooling | Auth, Uploads, MCP, and Karpathy Method Sync
+- **Що зроблено:**
+  - **Admin Layout:** Full-height sidebar (`h-screen`) and independent scroll.
+  - **Uploads:** `uploadImage` service supporting Local & Cloudinary (`CLOUDINARY_URL`). Added `ImageUpload` component with Drag-and-Drop sorting (`@hello-pangea/dnd`).
+  - **Auth:** Refactored `auth.ts` to fix NextAuth v5 TS mismatch error with Next.js 16. Added `trustHost: true` for Vercel. Migrated `middleware.ts` to `proxy.ts`.
+  - **MCP & Skills:** Configured shadcn MCP server in `.openclaw/mcp.json`. Installed `nextjs-patterns`, `lb-shadcn-ui-skill`, `tailwind-v4-shadcn`.
+  - **Settings Page:** Fully implemented admin settings interface.
+  - **Config Centralization:** All `process.env` calls routed through `lib/config.ts`.
+  - **Knowledge Base Sync:** Adapted the wiki to strictly use Obsidian native format (flat structure, `[[wikilinks]]`, `index.md`, `log.md`). Removed redundant `MEMORY.md` and duplicate code folders.
+- **Конвенції:** Only `gaztechprime` folder is used for code. All config reads must go through `lib/config.ts`. NextAuth v5 requires specific init pattern and `trustHost: true`.
+- **Пов'язані notes:** [[Shadcn MCP & UI]], [[Gaztechprime]], [[Next.js 15 & Tailwind v4]]
+- **Git Hash:** `c005ea6`
+
 ## [2026-04-14] SEO & Forms | React Hook Form & Zod, PWA, Sitemap
 - **Що зроблено:** 
   - Форми на сайті переведені на суворий Zod + React Hook Form (Contacts, Checkout).

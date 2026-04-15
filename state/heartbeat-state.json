@@ -1,14 +1,14 @@
 {
   "lastRun": {
-    "iso": "2026-04-15T08:11:22+02:00",
-    "epoch": 1776233482,
+    "iso": "2026-04-15T10:00:10+02:00",
+    "epoch": 1776240010,
     "tz": "Europe/Berlin"
   },
   "checks": {
     "knowledgeBaseAudit": {
       "status": "needs_update",
       "notes": [
-        "New commits in gaztehprime_repo (847bcbd, 048569a) covering Image Upload and NextAuth v5 refactor are undocumented in wiki/notes/log.md."
+        "Commits up to c005ea6 in gaztechprime are undocumented in wiki/notes/log.md."
       ]
     },
     "wikiAutoCommit": {
@@ -19,15 +19,12 @@
       "status": "clean"
     },
     "repositorySync": {
-      "repo": "gaztehprime_repo",
+      "repo": "gaztechprime",
       "branch": "dev",
       "aheadBehind": { "ahead": 0, "behind": 0 },
-      "dirty": true,
-      "untracked": [
-         "auth/"
-      ],
-      "status": "needs_attention",
-      "notes": "Untracked 'auth/' directory found in gaztehprime_repo."
+      "dirty": false,
+      "untracked": [],
+      "status": "clean"
     }
   }
 }

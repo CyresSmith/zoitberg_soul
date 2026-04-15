@@ -1,1 +1,0 @@
-- **Prisma 7.7+ Breaking Changes:** In Prisma 7, the `url` property is no longer allowed in the `datasource` block inside `schema.prisma`. It must be removed from the schema and placed exclusively in the new `prisma.config.ts` file.
